@@ -1,0 +1,74 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+	background-image: url(IMG_9250-2_35.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	background-color: blue;
+
+	font-family: garamond;
+}
+
+.logo {
+	max-width: 20%;
+	max-height: 20%;
+	text-align: left;
+	
+	position: fixed;
+}
+
+
+#the-form {
+	width: 280px;
+	position: absolute;
+	top: 25%;
+	left: 8%;
+	color: white;
+}
+
+#the-form h1 {
+	color: white;
+	float: left;
+	font-size: 30px;
+	border-bottom: 2px solid;
+	margin-bottom: 25px;
+}
+
+.the-inputarea {
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	margin: 8px 0;
+	padding: 8px 0;
+	border-bottom: 1px solid;
+}
+
+.the-inputarea input {
+	border: none;
+	background: none;
+	outline: none;
+	color: white;
+	width: 80%;
+	margin: 0 0 0 7px;
+}
+
+.btn {
+	margin: 20px 0 35px 0;
+	padding: 4px;
+	font-size: 20px;
+	width: 100%;
+	background: none;
+	border: 1px solid;
+	color: white;
+}
+
+a {
+	color: yellow;
+}
+
+::placeholder {
+	color: #A9A9A9;
+
+}
