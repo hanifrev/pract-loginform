@@ -1,7 +1,7 @@
 @import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
 
 body {
-	background-image: url(IMG_9250-2_35.jpg);
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(IMG_9250-2_35.jpg);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,18 +22,24 @@ body {
 
 #the-form {
 	width: 280px;
+	height: 400px;
 	position: absolute;
-	top: 25%;
+	top: 23%; 
 	left: 8%;
-	color: white;
+	color: white; 
+	background-color: rgba(0, 0, 0, .5); 
+	padding: 15px 27px 1px 27px;
+	border-radius: 15px;
 }
 
 #the-form h1 {
 	color: white;
-	float: left;
+	
+	text-align: center;
 	font-size: 30px;
-	border-bottom: 2px solid;
-	margin-bottom: 25px;
+/*	border-bottom: 1px solid; */
+	margin-bottom: 30px;
+
 }
 
 .the-inputarea {
@@ -55,13 +61,18 @@ body {
 }
 
 .btn {
-	margin: 20px 0 35px 0;
-	padding: 4px;
-	font-size: 20px;
-	width: 100%;
-	background: none;
-	border: 1px solid;
-	color: white;
+	margin: 20px 0 75px 0;
+	padding: 7px 0 7px 0;
+	font-size: 15px;
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	background-color: rgba(30, 144, 255, .7);
+	border: none;
+	outline: none;
+	color: 	white;
+	border-radius: 7px;
+
 }
 
 a {
@@ -71,4 +82,9 @@ a {
 ::placeholder {
 	color: #A9A9A9;
 
+}
+
+#the-form h5 {
+	text-align: center;
+	text-decoration: none;
 }

@@ -10,21 +10,81 @@
 	</div>
 	<div id="the-form">
 		
-		<h1>Welcome to Crescent Sun, Sign in here:</h1>
+		<h1>Welcome to<BR> C r e s c e n t - S U N</h1>
 		<form action="#">
-		<div class="the-inputarea">
-		<i class="fa fa-user" aria-hidden="true"></i>
-		<input type="text" name="username" placeholder="Username/E-mail"><br></div>
+			<div class="the-inputarea">
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<input type="text" name="username" required="" placeholder="Username/E-mail"><br></div>
 
-		<div class="the-inputarea">
-		<i class="fa fa-lock" aria-hidden="true"></i>
-		<input type="password" name="pass" placeholder="Password"><br></div>
+			<div class="the-inputarea">
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" name="pass" required="" placeholder="Password"><br></div>
 
-		<input class="btn" type="button" name="" value="L o g i n">
 
-		<h5>Don't have an account? <a href="https://twitter.com" target="_blank">Sign up</a></h5>
+
+			<input class="btn" id="but" type="submit" name="" value="Sign In">
+
+			<h5>Don't have an account? <a href="https://twitter.com" target="_blank" class="signup">Sign up</a></h5>
 
 		</form>
 	</div>
+	<script>
+		const loginbut = document.querySelector('.btn');
+		loginbut.addEventListener('click', function () {
+			alert('Sorry, this site is under constructions');
+		})
+
+		// document.querySelector('#but').onmouseover = function() {
+		// 	mouseOver()
+		// };
+		// function mouseOver() {
+
+		// }
+
+		const loglog = document.querySelector('#but');
+		loglog.addEventListener('mouseover', function(){
+			loglog.style.color = 'red';
+		})
+		const loglogout = document.querySelector('#but');
+		loglogout.addEventListener('mouseout', function(){
+			loglogout.style.color = 'white';
+		})
+
+		const signuplog = document.querySelector('.signup');
+		signuplog.addEventListener('mouseover', function(){
+			signuplog.style.color = 'red';
+		})
+		const signuplog1 = document.querySelector('.signup');
+		signuplog1.addEventListener('mouseout', function(){
+			signuplog1.style.color = 'yellow';
+		})
+
+	</script>
+<!---
+	<div id="the-form">
+		
+		<h1>Register</h1>
+		<form action="#">
+			
+			<div class="the-inputarea">
+			<i class="fa fa-user" aria-hidden="true"></i>
+			<input type="text" name="username" required="" placeholder="Username"><br></div>
+
+			<div class="the-inputarea">
+			<i class="fa fa-envelope-o" aria-hidden="true"></i>
+			<input type="text" name="E-mail" required="" placeholder="E-mail"><br></div>
+
+			<div class="the-inputarea">
+			<i class="fa fa-lock" aria-hidden="true"></i>
+			<input type="password" name="pass" required="" placeholder="Password"><br></div>
+
+			<input class="btn" type="submit" name="" value="Sign Up">
+
+			<h5>Already have an account? <a href="" target="">Sign in</a></h5>
+		</form>
+	</div> -->
+
+<!--	<script src="https://code.jquery.com/jquery-3.4.1.min.js"> -->
+	
 </body>
 </html>
